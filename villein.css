@@ -1,7 +1,9 @@
 h1 {
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .form {
@@ -24,7 +26,7 @@ input {
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
   font-size: 24px;
   width: 5rem;
-  border: 1px dotted;
+  border: 1px dotted grey;
   border-radius: 0.5rem;
   text-align: center;
 }
