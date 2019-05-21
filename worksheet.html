@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title>Villein Numbers Worksheet</title>
+
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='villein.css'>
+</head>
+
+<body>
+  <section id='vue'>
+    <div class='number'>
+      <h1>Villein Numbers Worksheet</h1>
+    </div>
+    
+    <div class='form'>
+      <div class='number' v-for='i in seed'>
+        <img :src="`img/${i}.png`" />
+        <input type='number' v-model='numbers[i]' >
+      </div>
+    </div>
+
+    <!-- <div>
+      <button v-on:click='clear' title='Delete all your translations'>Clear</button>
+    </div> -->
+  </section>
+</body>
+
+<script type='text/javascript' src='js/store.legacy.min.js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/vue'></script>
+<script type='text/javascript' src='js/worksheet.vue.js'></script>
+
+</html>
